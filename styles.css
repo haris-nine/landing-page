@@ -4,16 +4,12 @@
 
 
 body {
-    display: flex;
-    flex-direction: column;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
 .top {
-    display: flex;
-    flex-direction: column;
     background-color: #1F2937;
     color: white;
 }
@@ -28,7 +24,7 @@ body {
     padding: 16px;
     font-size: 24px;
     color: #F9FaF8;
-    font-family: 'Times New Roman', 'Roboto';
+    font-family: 'Times New Roman', 'Roboto'; /*  looks cooler that way  */
 }
 
 ul {
@@ -52,7 +48,7 @@ a {
 .hero {
     display: flex;
     padding: 120px 80px;
-    gap: 1em;
+    gap: 16px;
 }
 
 #hero-heading {
@@ -83,7 +79,7 @@ button {
     padding: 5px 20px;
     border-radius: 8px;
     transition-duration: 0.4s;
-    }
+}
 
 button:hover {
     background-color: #E5E7EB;
@@ -93,6 +89,7 @@ button:hover {
 .main-image {
     max-width: 50%;
     height: auto;
+    object-fit: contain;
 }
 
 .info {
@@ -117,6 +114,7 @@ img {
     display: flex;
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .image {
