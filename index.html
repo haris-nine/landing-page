@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Landing Page</title>
 </head>
 <body>
@@ -12,24 +15,26 @@
         <header class="header">
             <div class="logo">Fate/stay night</div>
             <ul>
-                <li><a href="">Official Page</a></li>
-                <li><a href="">Steam link</a></li>
-                <li><a href="">eShop Link</a></li>
+                <li><a href="http://typemoon.com/products/f-sn/" target=”_blank”>Official Page</a></li>
+                <li><a href="https://store.steampowered.com/app/2396980/Fatestay_night_REMASTERED/" target=”_blank”>Steam link</a></li>
+                <li><a href="https://www.nintendo.com/us/store/products/fate-stay-night-remastered-switch/" target=”_blank”>eShop Link</a></li>
             </ul>
         </header>
         <div class="hero">
             <div class="hero-text">
-                <div class="hero-heading">This visual novel is awesome!</div>
-                <p>A remastered version of Fate/stay night, fantasy action drama visual novel and Type-Moon's first-ever commercial release in 2004, has been released on Steam&reg; for its 20th anniversary.<br><br>The story revolves around Shirou Emiya, a hardworking and honest teenager who unwillingly enters a to-the-death tournament called the Fifth Holy Grail War, where combatants fight with magecraft and Heroes from throughout history for a chance to have their wishes granted by the eponymous Holy Grail.</p>
-                <button>Buy it!</button>
+                <div id="hero-heading">This visual novel is awesome!</div>
+                <p id="hero-para">A remastered version of Fate/stay night, fantasy action drama visual novel and Type-Moon's first-ever commercial release in 2004, has been released on Steam<span>&reg;</span> for its 20th anniversary.<br><br>The story revolves around Shirou Emiya, a hardworking and honest teenager who unwillingly enters a to-the-death tournament called the Fifth Holy Grail War, where combatants fight with magecraft and Heroes from throughout history for a chance to have their wishes granted by the eponymous Holy Grail.</p>
+                <a href="https://store.steampowered.com/app/2396980/Fatestay_night_REMASTERED/" target=”_blank”>
+                    <button>Buy it!</button>
+                </a>
             </div>
             <img src="images/main.jpg" alt="Announcement of Fate/Stay Night Remastered release" class="main-image">
         </div>
     </div>
     <main>
         <div class="info">
-            <div class="info-header">Gameplay Screenshots</div>
-            <div>
+            <div class="info-header">Illustrations</div>
+            <div class="images">
                 <div class="image">
                     <img src="images/1.jpg" alt="The first meeting of the main character and their partner">
                     <div>A story full of mystery and action.</div>
@@ -49,8 +54,8 @@
             </div>
         </div>
         <div class="quote">
-            <p class="quoting">
-                "Rejoice, Emiya Shirou. Your wish will finally come true."</p>
+            <blockquote class="quoting">
+                "Rejoice, Emiya Shirou. Your wish will finally come true."</blockquote>
             <div class="credit">-Kotomine Kirei, Priest</div>
         </div>
         <div class="calling">
@@ -58,7 +63,9 @@
                 <div class="call-heading">Fate/stay night REMASTERED</div>
                 <p>Seek the root of the Fate franchise. Return to where it all began.</p>
             </div>
-            <button>Buy right away!</button>
+            <a href="https://store.steampowered.com/app/2396980/Fatestay_night_REMASTERED/" target=”_blank”>
+                <button>Buy right away!</button>
+            </a>
         </div>
     </main>
     <footer>Copyright &copy; Type-Moon 2024</footer>

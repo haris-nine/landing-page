@@ -1,6 +1,6 @@
-* {
+/* * {
     outline: 1px solid red;
-}
+} */
 
 
 body {
@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .top {
@@ -27,7 +28,7 @@ body {
     padding: 16px;
     font-size: 24px;
     color: #F9FaF8;
-
+    font-family: 'Times New Roman', 'Roboto';
 }
 
 ul {
@@ -54,36 +55,128 @@ a {
     gap: 1em;
 }
 
-.hero-heading {
+#hero-heading {
     font-size: 48px;
     font-weight: 800;
     color: #F9FaF8;
 
 }
 
-p {
+#hero-para {
     font-size: 18px;
     color: #E5E7EB;
     margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+span {
+    font-size: 12px;
+    position: relative;
+    bottom: 4px;
 }
 
 button {
     border: none;
     font-size: 22px;
     background-color: #3882f6;
-    color: white;
+    color: #E5E7EB;
     padding: 5px 20px;
-    border-radius: 4px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    }
+
+button:hover {
+    background-color: #E5E7EB;
+    color: #3882f6;
 }
+
 .main-image {
     max-width: 50%;
     height: auto;
+}
+
+.info {
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 .info-header {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    padding: 40px;
+}
+
+img {
+    max-width: 275px;
+    height: auto;
+}
+
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.image {
+    max-width: 275px;
+}
+
+.image img {
+    border-radius: 8px;
+    border: 5px solid #3882f6;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 80px;
+
+}
+
+.quoting {
+    font: italic 300 36px 'Roboto', sans-serif;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.credit {
+    text-align: right;
+    margin: 0 40px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.calling {
+    display: flex;
+    background-color: #3882f6;
+    margin: 40px 80px;
+    padding: 50px 40px;
+    border-radius: 6px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-heading {
+    color: #E5E7EB;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+p {
+    margin-bottom: 0;
+    color: #E5E7EB;
+}
+
+.calling button {
+    border: 2px solid #E5E7EB;
+    padding: 5px 15px;
+}
+
+footer {
     text-align: center;
     padding: 30px;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
